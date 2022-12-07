@@ -55,18 +55,16 @@ StoreStats.prototype.render = function () {
 
   // let tableCreate = document.createElement('tr');
   // tableClicker.appendChild(tableCreate);
-
-  let thElem = document.createElement('th');
   // tableClicker.appendChild(thElem);
 
-//*
+  let trElem = document.createElement('tr');
+
   for (let n = 0; n < this.allCook.length; n++) {
     let tdElem = document.createElement('td');
     tdElem.textContent = this.allCook[n];
-    thElem.appendChild(tdElem);
+    trElem.appendChild(tdElem);
   }
-  tableClicker.appendChild(thElem);
-//*
+  tableClicker.appendChild(trElem);
 };
 
 let seattle = new StoreStats('Seattle', '23', '65', '6.3');
@@ -78,7 +76,7 @@ let lima = new StoreStats('Lima', '2', '16', '4.6');
 renderBot.push(seattle, tokyo, dubai, paris, lima);
 
 function renderNow() {
-  let thElem = document.createElement('th');
+  let thElem = document.createElement('tr');
   for (let n = 0; n < storeHours.length; n++) {
     let tdElem = document.createElement('td');
     tdElem.textContent = storeHours[n];
