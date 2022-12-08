@@ -1,7 +1,19 @@
+header {
+  background-color:darksalmon;
+}
+
 body {
   background-color: lightcoral;
+  font-family: "Trirong", serif;
 }
 
 td {
-  background-color:darkgrey;
+  background-color:lightpink;
+  color: antiquewhite;
+  padding: 7px;
+  border: 1px solid black;
+}
+
+#set-the-table {
+  font-family: "Sofia", sans-serif;
 }
