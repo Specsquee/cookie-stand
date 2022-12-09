@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  
+
 
 </head>
 
@@ -28,8 +28,31 @@
 
   <main>
 
-    <section id="salmon-cookies"></section>
     <table id="set-the-table"></table>
+
+    <form id="cookieForm">
+
+      <fieldset>
+
+        <legend>Add a location!</legend>
+
+        <label for="name">Name: </label>
+        <input name="name" type="text" id="name" placeholder="ex. John Smith">
+
+        <label for="minCust">Minimum customers: </label>
+        <input type="number" name="minCust" id="minCust" placeholder="# here">
+
+        <label for="maxCust">Maximum customers: </label>
+        <input type="number" name="maxCust" id="maxCust" placeholder="# here">
+
+        <label for="avgCookies">Average cookies sold? </label>
+        <input type="number" name="avgCookies" id="avgCookies" placeholder="# cookies sold per hour">
+
+      </fieldset>
+
+      <button type="submit"></button>
+
+    </form>
 
   </main>
 
