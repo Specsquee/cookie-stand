@@ -1,19 +1,41 @@
 header {
-  background-color:darksalmon;
+  background-color:rgb(247, 99, 119);
+  margin-bottom: 20px;
 }
 
 body {
   background-color: lightcoral;
   font-family: "Trirong", serif;
+  padding: 30px;
+  width: 787px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 td {
   background-color:lightpink;
-  color: antiquewhite;
-  padding: 7px;
+  color:rgb(250, 0, 84);
+  padding: 4.2px;
   border: 1px solid black;
 }
 
 #set-the-table {
   font-family: "Sofia", sans-serif;
 }
+
+h1 {
+  text-align:center;
+  color:rgb(245, 235, 231);
+}
+
+h2 {
+  color: blanchedalmond;
+}
+
+li {
+list-style-type:none;
+border: 1px solid;
+border-color:blanchedalmond;
+font-style:italic;
+}
+

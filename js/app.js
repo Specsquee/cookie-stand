@@ -113,6 +113,7 @@ function footerRender() {
 function renderNow() {
   let thElem = document.createElement('tr');
   let emptyTD = document.createElement('td');
+  emptyTD.textContent = "Hours";
   thElem.appendChild(emptyTD);
 
   for (let n = 0; n < storeHours.length; n++) {
